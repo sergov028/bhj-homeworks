@@ -3,8 +3,6 @@ const nextBtn = document.querySelector(".slider__arrow_next");
 const slider = Array.from(document.querySelectorAll(".slider__item"));
 const dots = Array.from(document.querySelectorAll(".slider__dot"));
 
-//let sliderActive = 0;
-
 prewBtn.onclick = () => {
   let sliderActive = slider.findIndex((element) =>
     element.classList.contains("slider__item_active")
