@@ -11,7 +11,7 @@ menuSub.forEach((item) => {
         element.classList.remove(".menu_active");
       }
     });
-    item.classList.add("menu_active");
+    item.classList.toggle("menu_active");
     return false;
   };
 });
